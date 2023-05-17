@@ -1,0 +1,4 @@
+[
+  "features/gherkins/c/d/f/test4 copy.feature",
+  "features/gherkins/c/d/f/test4.feature"
+]
