@@ -2,16 +2,17 @@
   "name": "my-new-project",
   "type": "module",
   "devDependencies": {
-    "@wdio/cli": "^8.10.2",
-    "@wdio/cucumber-framework": "^8.10.3",
-    "@wdio/local-runner": "^8.10.2",
-    "@wdio/spec-reporter": "^8.10.2",
+    "@wdio/cli": "^8.11.2",
+    "@wdio/cucumber-framework": "^8.11.0",
+    "@wdio/local-runner": "^8.11.2",
+    "@wdio/spec-reporter": "^8.11.2",
     "chromedriver": "^113.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
+    "wdio:hook-error":"npm run wdio -- --spec ",
     "wdio": "wdio run ./wdio.conf.ts",
     "parse": "node parse.mjs"
   },
